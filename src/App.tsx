@@ -26,10 +26,10 @@ const App: React.FC = () => {
         <span className='text-center font-bold text-2xl z-10'>TODO App</span>
       </div>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
-      <TodoList todos={todos} setTodos={setTodos}  />
+      <TodoList todos={todos} setTodos={setTodos} />
     </>
   );
-}
+};
 
 export default App;
 
